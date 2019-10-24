@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    npm install 
     npm run build
     npx mocha
   displayName: 'npm install and build and test'
