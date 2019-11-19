@@ -18,8 +18,7 @@ steps:
 - script: |
     npm install 
     npm run build
-    npx mocha
-  displayName: 'npm install and build and test'
+  displayName: 'npm install and build'
 
 - task: ArchiveFiles@2
   inputs:
